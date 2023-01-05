@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.error {
+    color:red;
+}
+
+.container {
+    width: 60%;
+    background-color: #c3c3c3;
+    margin: 0 auto;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.genero {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    text-align: center;
+    margin-top: 10px;
+}
+
+input[type=radio] {
+    margin-left: 5px;
+    margin-right: 5px;
+}
