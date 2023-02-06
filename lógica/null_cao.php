@@ -1,11 +1,8 @@
 <?php
 
-$nome = 'Baltazar';
-
 	
 	
-	
-$nomeCompleto = $nome;
+$nomeCompleto = $nome ?? 'Visitante';
 $nomeCompleto .= $sobrenome ?? '';
 
 echo $nomeCompleto;
