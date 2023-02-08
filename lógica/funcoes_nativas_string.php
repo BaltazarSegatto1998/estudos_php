@@ -4,7 +4,7 @@ $nomeSujo = '          Sidnei        baltazar  ';
 $nomeLimpo = trim($nomeSujo);
 $nomeAlterado = str_replace('Baltazar', 'Junior', $nomeSujo);
 $nomeApenasUmaParte = substr($nomeLimpo, 0, 5);
-$posicao = strpos($nomeLimpo, 'y');
+$posicao = strpos($nomeLimpo, 'b');
 $nomes = explode(' ', $nomeLimpo);
 $numero = 14982.12;
 
