@@ -6,14 +6,16 @@
 
 
 class Post {
+    public int $id;
     public int $likes = 0;
     public array $coments = [];
     public string $author;
 
 
     // ele executa toda vez que um objeto novo é criado (primeiro método executado)
-    public function __construct($qLikest = 0) {
-        $this->likes = $qLikest;
+    public function __construct($postId) {
+        $this->id = $postId;
+        $this->likes = 12 * $postId;
     }
 
     public function aumentarLike() {
@@ -22,9 +24,9 @@ class Post {
 }
 
 // Objeto é um item real criado a partir de uma modelo(classe).
-$post1 = new Post(25);
+$post1 = new Post(1);
 
-$post2 = new Post(1);
+$post2 = new Post(2);
 
 
 
