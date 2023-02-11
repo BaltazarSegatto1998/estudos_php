@@ -9,6 +9,8 @@ class Post {
 }
 
 
+// Objeto é um item real criado a partir de uma modelo(classe).
+
 $post1 = new Post();
 $post1->likes = 3;
 
