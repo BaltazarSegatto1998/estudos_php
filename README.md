@@ -1,6 +1,2 @@
 # estudos_php
-Anotações sobre php.
--POO
--CRUD
--BD
-
+Anotações sobre PHP, alguns pontos essenciais, POO,CRUD,BD, entre outros pontos.
